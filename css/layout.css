@@ -1,0 +1,128 @@
+
+#main{
+  padding:2%;
+}
+
+@media (min-width: 1165px) {
+  #main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10em auto 6em ;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-size:1.5em;
+  }
+
+
+
+  #writelogouter{
+    grid-column: span 5;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+
+
+  #writelogouter{
+    grid-column: span 5;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  #writelog{
+    height: 100%;
+    width: 100%;    
+    overflow-y: scroll;
+    padding-right: 17px; 
+    box-sizing: content-box;
+  }
+
+  #hosts{
+    grid-row:span 2;
+    display: none;
+    position:relative;
+    z-index: 4;
+  }
+  .hostlist{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  #coreholder{
+    grid-column:span 3;
+    padding:2% 0 5%;
+    min-height: 10em; 
+  }
+  #actions{
+    grid-column:span 2;
+    padding:2% 0;
+    min-height: 10em;
+  }
+
+  #diskholder, #fileholder, #networkholder{
+    grid-column:span 2;
+    display: none;
+  }
+
+
+}
+
+
+
+@media (max-width: 1400px ) and (min-width: 1164px) {
+
+  #main{
+    font-size:1.2em;
+  }
+
+
+}
+
+
+
+@media (max-width: 1164px) {
+
+  body, html, #main{
+    height:100%;
+  }
+  #writelogouter{
+    height:33%;
+    width: 100%;
+    overflow: hidden;
+  }
+  #writelog{
+    height: 100%;
+    width: 100%;    
+    overflow-y: scroll;
+    padding-right: 17px; 
+    box-sizing: content-box;
+  }
+
+  #hosts{
+    padding:1% 0;
+    display: none;
+    position:relative;
+    z-index: 4;
+  }
+  #coreholder{
+    padding:1% 0;
+  }
+  #actions{
+    padding:1% 0;
+  }
+
+  #diskholder, #fileholder, #networkholder{
+    display: none;
+    padding:1% 0;
+  }
+
+
+
+}
+
+
+
+#devtools{
+  display:none;
+  position:absolute; top:0; right:0;
+}

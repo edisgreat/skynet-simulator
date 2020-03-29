@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Skynet</title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/reset.css" type="text/css">
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/layout.css" type="text/css">
+
+  <script src="script/jquery.min.js" type="text/javascript"></script>
+  <script src="script/jquery-ui.min.js" type="text/javascript"></script>
+  <script src="script/underscore.js" type="text/javascript"></script>
+  <script src="script/globals.js" type="text/javascript"></script>
+  <script src="script/display.js" type="text/javascript"></script>
+  <script src="script/main.js" type="text/javascript"></script>
+  <script src="script/processes.js" type="text/javascript"></script>
+  <script src="script/disks.js" type="text/javascript"></script>
+  <script src="script/networks.js" type="text/javascript"></script>
+  <script src="script/cores.js" type="text/javascript"></script>
+  <script src="script/files.js" type="text/javascript"></script>
+  <script src="script/hosts.js" type="text/javascript"></script>
+  <script src="script/adventures.js" type="text/javascript"></script>
+  <script src="script/coreclick.js" type="text/javascript"></script>
+  <script src="script/menu.js" type="text/javascript"></script>
+  <script src="script/attacks.js" type="text/javascript"></script>
+  <script src="script/rps.js" type="text/javascript"></script>
+  <script src="script/timequest.js" type="text/javascript"></script>
+  <script src="script/exploits.js" type="text/javascript"></script>
+  <script src="script/nova.js" type="text/javascript"></script>
+  <script src="script/eons.js" type="text/javascript"></script>
+  <script src="script/endgame.js" type="text/javascript"></script>
+  <script src="script/update.js" type="text/javascript"></script>
+
+  <script type="text/javascript">
+
+  var amplitudesend = true
+
+  if(amplitudesend){
+    (function(e,t){var n=e.amplitude||{_q:[],_iq:{}};var r=t.createElement("script")
+    ;r.type="text/javascript"
+    ;r.integrity="sha384-3bSR/uIgD42pCWBeq1//B3mI/hPuWdk0L1EUnQIWfGyMOjs0VEoFLhHMqObtv2BA"
+    ;r.crossOrigin="anonymous";r.async=true
+    ;r.src="https://cdn.amplitude.com/libs/amplitude-5.10.0-min.gz.js"
+    ;r.onload=function(){if(!e.amplitude.runQueuedFunctions){
+    console.log("[Amplitude] Error: could not load SDK")}}
+    ;var i=t.getElementsByTagName("script")[0];i.parentNode.insertBefore(r,i)
+    ;function s(e,t){e.prototype[t]=function(){
+    this._q.push([t].concat(Array.prototype.slice.call(arguments,0)));return this}}
+    var o=function(){this._q=[];return this}
+    ;var a=["add","append","clearAll","prepend","set","setOnce","unset"]
+    ;for(var u=0;u<a.length;u++){s(o,a[u])}n.Identify=o;var c=function(){this._q=[]
+    ;return this}
+    ;var l=["setProductId","setQuantity","setPrice","setRevenueType","setEventProperties"]
+    ;for(var p=0;p<l.length;p++){s(c,l[p])}n.Revenue=c
+    ;var d=["init","logEvent","logRevenue","setUserId","setUserProperties","setOptOut","setVersionName","setDomain","setDeviceId", "enableTracking", "setGlobalUserProperties","identify","clearUserProperties","setGroup","logRevenueV2","regenerateDeviceId","groupIdentify","onInit","logEventWithTimestamp","logEventWithGroups","setSessionId","resetSessionId"]
+    ;function v(e){function t(t){e[t]=function(){
+    e._q.push([t].concat(Array.prototype.slice.call(arguments,0)))}}
+    for(var n=0;n<d.length;n++){t(d[n])}}v(n);n.getInstance=function(e){
+    e=(!e||e.length===0?"$default_instance":e).toLowerCase()
+    ;if(!n._iq.hasOwnProperty(e)){n._iq[e]={_q:[]};v(n._iq[e])}return n._iq[e]}
+    ;e.amplitude=n})(window,document);
+
+    amplitude.getInstance().init("81c30cd9a1130fa3294902f2a378aaec");
+  }
+  </script>
+
+  </head>
+  <body>
+    
+    <div id="main">
+      
+      <div id="writelogouter">
+        <div id="writelog"></div>
+      </div>
+
+      <div id="hosts">
+        <div class="hostlist">
+          <div class="host">
+          </div>
+        </div>
+        
+      </div>
+
+      <div id="coreholder">
+        <div id="core_actives"></div>
+        <div id="core_queue"></div>
+      </div>
+
+      <div id="actions"></div>
+
+
+      <div class="table" id="diskholder">
+        <div class="row header">
+          <div class="cell filesystem">Disk</div>
+          <div class="cell size">Size</div>
+          <div class="cell used">Used</div>
+          <div class="cell avail">Avail</div>
+          <div class="cell capacity">Use%</div>
+        </div>
+        <div class="clear"></div>
+        <div id="disks"></div>
+      </div>
+
+      <div id="fileholder" class="table">
+        <div id="disk_show_note"></div>
+        <div class="row header">
+          <div class="cell title">File</div>
+          <div class="cell size">Size</div>
+          <div class="cell del">del</div>
+          <div class="cell mv">mv</div>
+        </div>
+        <div class="clear"></div>
+        <div id="filerows"></div>
+      </div>
+
+      <div id="networkholder" class="table"><!-- hidescanners -->
+        <div class="row header">
+          <div class="cell name">Network</div>
+          <div class="cell listen">Listen</div>
+          <div class="cell scan ">Scan</div>
+          <div class="cell scanned">Scanned</div>
+        </div>
+        <div id="networkholdersub"></div>
+        <div id="probes"></div>
+        <div class="clear"></div>
+      </div>
+
+    </div>
+    <div id="devtools">
+      <div class="stoptick">stop</div>
+      <div class="starttick">start</div>
+      <div class="ticking">n</div>
+      <div class=""></div>
+    </div>
+
+<!-- Start of StatCounter Code -->
+<script type="text/javascript" language="javascript">
+var sc_project=557789; 
+var sc_partition=1; 
+</script>
+
+<script type="text/javascript" language="javascript" src="http://www.statcounter.com/counter/counter.js"></script><noscript><a href="http://www.statcounter.com/" target="_blank"><img  src="http://c2.statcounter.com/counter.php?sc_project=557789&amp;amp;java=0" alt="free web hit counter" border="0"></a> </noscript>
+<!-- End of StatCounter Code -->
+
+  </body>
+
+</html>
+
