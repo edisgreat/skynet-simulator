@@ -103,7 +103,7 @@ clickHost = function(x_host){
   addBuffer("<span class='exe'>"+hostTitle(x_host)+"</span>")
   if(x_host.known){
     addBuffer("OS: "+x_host.os)
-    addBuffer("Architecture: "+x_host.os)
+    addBuffer("Architecture: "+x_host.architecture)
     writeBuffer()
     writeHostVuls(x_host)
   }else{
