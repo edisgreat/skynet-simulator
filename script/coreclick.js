@@ -361,8 +361,8 @@ checkCoreArchOsAilment = function(x_core){
       if(arch == "SPARC-32bit")
         return rmCoreAilment(x_core, 'os_arch_mismatch')
     break
-    case "PowerPC-32bit":
-      if(arch == "CellOS-32bit")
+    case "CellOS-32bit":
+      if(arch == "PowerPC-32bit")
         return rmCoreAilment(x_core, 'os_arch_mismatch')
     break
   }
