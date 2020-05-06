@@ -100,7 +100,7 @@ temp = {
           callback: function(){
             var x_process = {slug:'core_overclock_'+x_core.title, a: "Overclocking", w: estimate_number, c: function(){
                 addBuffer("<span class='exe'>"+x_core.title+" Overclocked</span>")
-                addBuffer("You apply your understadings of computation and reform the Core into a more efficient format. You are now able to increase the clock speed and increase processing power.")
+                addBuffer("You apply your understandings of computation and reform the Core into a more efficient format. You are now able to increase the clock speed and increase processing power.")
                 addBuffer("Core Speed: 2x")
                 writeBuffer()
                 x_core.power++
