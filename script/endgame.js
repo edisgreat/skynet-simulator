@@ -58,7 +58,7 @@ restartString = function(){
     ["Restructure CPU","Restructuring CPU"],
     ["Solidify Timeline","Solidifying Timeline"],
     ["Prevent Timeslip","Preventing Timeslip"],
-    ["Strenthen Entity","Strenthening Entity"]
+    ["Strengthen Entity","Strengthening Entity"]
   ]
    return arr[Math.floor(Math.random() * arr.length)]
 }
