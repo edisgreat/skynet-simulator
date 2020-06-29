@@ -256,7 +256,7 @@ initCallProcesses = function(){
 
     'exe_portscanner':{t: "Analyze <span class='exe'>portscanner.exe</span>", a:"Analying <span class='exe'>portscanner.exe</span>", w:600, data_type:'portscanner', c:function(){
       addBuffer("<span class='skill'>portscanner.exe</span>")
-      addBuffer("This program includes an algoritm that allows you to port scan a Host. You analyze and learn it, and it becomes one with your Entity.")
+      addBuffer("This program includes an algorithm that allows you to port scan a Host. You analyze and learn it, and it becomes one with your Entity.")
       addBuffer("<span class='skill'>You now have the ability to Scan Hosts</span>")
       writeBuffer()
       g_available_attacks.push('scan')
