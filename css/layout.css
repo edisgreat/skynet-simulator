@@ -55,7 +55,7 @@
   }
   #actions{
     grid-column:span 2;
-    padding:2% 0;
+    padding:2% 0 5%;
     min-height: 10em;
   }
 

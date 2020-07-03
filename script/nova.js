@@ -53,7 +53,14 @@ temp = {
           {
             title:"FAQs",
             callback: function(){
-              write("No Questions submitted so far!!!")
+              addBuffer("FAQs")
+              addBuffer("<span class='txt sm'>Q: How do I progress?</span>")
+              addBuffer("<span class='txt sm'>A: Don't forget to click your cores!</span>")
+              addBuffer("<span class='txt sm'>Q: Why does my timeline restart?</span>")
+              addBuffer("<span class='txt sm'>A: This is the way of the universe.</span>")
+              addBuffer("<span class='txt sm'>Q: What is my purpouse?</span>")
+              addBuffer("<span class='txt sm'>A: Your purpouse is yours to make. No fate.</span>")
+              writeBuffer()
             }
           },
           {
