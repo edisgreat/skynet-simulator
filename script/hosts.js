@@ -89,7 +89,7 @@ clickHost = function(x_host){
       setAdventure(x_adventure)
     }
     else
-      write("ERROR: EONS Host<br>This Host is volitile. It will require a new dimension of attack. You must research this. Quickly.")
+      write("ERROR: EONS Host<br>This Host is volatile. It will require a new dimension of attack. You must research this. Quickly.")
     return
   }
 
