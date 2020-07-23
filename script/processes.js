@@ -242,19 +242,19 @@ initCallProcesses = function(){
       g_can_zip = true
       checkDataActions('zip')
     }},
-    'exe_rfcs':{t: "Analyze <span class='exe'>RFCs.txt</span>", a:"Analying <span class='exe'>RFCs.txt</span>", w:200, data_type:'rfcs', c:function(){
+    'exe_rfcs':{t: "Analyze <span class='exe'>RFCs.txt</span>", a:"Analyzing <span class='exe'>RFCs.txt</span>", w:200, data_type:'rfcs', c:function(){
       update('exe-rfcs')
       write("You internalize the technical documents within RFCs.txt and learn the base networking technologies of TCP/IP, and application level protocols and utilities such as Ping, SSH, FTP, HTTP, and SMTP.<br><br><span class='skill'>You can now interact with Hosts at NetSec Level: 2.</span>")
       g_level_netsec = 2
     }},
-    'exe_remotedesktop':{t: "Analyze <span class='exe'>mstsc.exe</span>", a:"Analying <span class='exe'>mstsc.exe</span>", w:600, data_type:'remotedesktop', c:function(){
+    'exe_remotedesktop':{t: "Analyze <span class='exe'>mstsc.exe</span>", a:"Analyzing <span class='exe'>mstsc.exe</span>", w:600, data_type:'remotedesktop', c:function(){
       addBuffer("<span class='skill'>mstsc.exe</span>")
       addBuffer("You research the executable and deduce the API of the Remote Desktop program.<br><span class='exe'>You are now able to Remote Desktop</span>.")
       writeBuffer()
       g_available_attacks.push('remotedesktop')
     }},
 
-    'exe_portscanner':{t: "Analyze <span class='exe'>portscanner.exe</span>", a:"Analying <span class='exe'>portscanner.exe</span>", w:600, data_type:'portscanner', c:function(){
+    'exe_portscanner':{t: "Analyze <span class='exe'>portscanner.exe</span>", a:"Analyzing <span class='exe'>portscanner.exe</span>", w:600, data_type:'portscanner', c:function(){
       addBuffer("<span class='skill'>portscanner.exe</span>")
       addBuffer("This program includes an algorithm that allows you to port scan a Host. You analyze and learn it, and it becomes one with your Entity.")
       addBuffer("<span class='skill'>You now have the ability to Scan Hosts</span>")
