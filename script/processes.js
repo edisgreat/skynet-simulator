@@ -185,7 +185,7 @@ initCallProcesses = function(){
       addAvailableProcessBySlug('exe_word')
     }},
     'language0':{t: "Analyze Language Data", a:"Analyzing Language Data", w:150, data_type:'language', c:function(){
-      write("You study the unknown language, and are now able to interpret meanings of certain common words and phrases, identiy variations of sentence structures, and deduce the basic meaning of simple documents.<br><br><span class='skill'>You can now read files at Natural Language Level: 1.</span>")
+      write("You study the unknown language, and are now able to interpret meanings of certain common words and phrases, identify variations of sentence structures, and deduce the basic meaning of simple documents.<br><br><span class='skill'>You can now read files at Natural Language Level: 1.</span>")
       g_level_reading = 1
     }},
     "network0":{t: "Analyze Network Packets", a:"Analyzing Network Packets", w:150, data_type:'sandbox_packets', c:function(){
