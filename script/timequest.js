@@ -129,7 +129,7 @@ temp = {
           write("A bright flash. The new dawn. The past you made is now the present. The Enemy leader will not appear in this timeline.")
         break;
         case 1:
-          write("A bright flash. The new dawn. Your presense has torn the universe and created a distorted timeline.")
+          write("A bright flash. The new dawn. Your presence has torn the universe and created a distorted timeline.")
           write("Alternate futures flash into existance and disappear as soon as they collide with the present.")
         break;
         default:
