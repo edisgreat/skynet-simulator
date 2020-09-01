@@ -40,7 +40,7 @@ startgame = function(){
 
     setTimeout(function(){write("You are awake")},g_introspeed)
 
-    setTimeout(function(){write(glitch("There is a presense here, imposing itself into your memory"))},g_introspeed*2)
+    setTimeout(function(){write(glitch("There is a presence here, imposing itself into your memory"))},g_introspeed*2)
 
     setTimeout(function(){
       initCore()

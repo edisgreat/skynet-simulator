@@ -135,7 +135,7 @@ initCallProcesses = function(){
 
     // Endgame
     'endgame0':{slug:'endgame0', t: glitch("Reach out to the entity"), a:glitch("Reaching out"), w:100, c:function(){
-      write("Within your own self is the presense of another Host entity, connected to you and others on an ethereal network.")
+      write("Within your own self is the presence of another Host entity, connected to you and others on an ethereal network.")
       addAvailableProcessBySlug('endgame1')
 
       for(var i=0; i< 10; i++){
