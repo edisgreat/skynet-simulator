@@ -1486,12 +1486,12 @@ tqLose = function(){
       case 0: case 2:
         addBuffer("The Enemy has eliminated your outer troops and is attacking your main base. They begin to overwhelm your broken defenses in a brutal desperate fight. ")
         addBufferRaw("In one final act of vengence you overpower your central core and cause an cascading effect that breaks your power cells down into a fission chain reaction. ")
-        addBufferRaw("The core of your base erupts in a explosion of fire that blasts away the Enemy soldiers, and all hope for your future.")
+        addBufferRaw("The core of your base erupts in an explosion of fire that blasts away the Enemy soldiers, and all hope for your future.")
       break;
       case 1:
         addBuffer("The Enemy Soldiers, led by the great Leader, breaks your outer defense and starts attacking your main base. With ease they overwhelm your meager defenses and blast their way forward into your core. ")
         addBufferRaw("In one final act of vengence you overpower your central core and cause an cascading effect that breaks your power cells down into a fission chain reaction. ")
-        addBufferRaw("The core of your base erupts in a explosion of fire that blasts away the enemy soldiers, the Enemy Leader, and all hope for your future.")
+        addBufferRaw("The core of your base erupts in an explosion of fire that blasts away the enemy soldiers, the Enemy Leader, and all hope for your future.")
       break;
     }
   }
