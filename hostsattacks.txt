@@ -1,0 +1,164 @@
+Todo: 
+- fix glitch on restart
+- fix passwords on restart
+- make ending less obtuse
+- fix quant exploit
+
+
+db 
+table: log
+- id
+- timestamp
+- ip
+- uuid
+- local time
+- action
+- data blob
+
+
+Research Tech
+- Upgrade OS
+- msdos32
+- Create OS exploit
+-- calendar-16.exe
+-- calendar-32.exe
+- Create Keylogger exploit
+- Ping Spike ability
+- SMTP overload ability
+- Forceful Absorb
+
+Study
+
+- circuitry logic
+- 
+
+
+- math
+-- computation theory 
+--- algorithms (global core 2)
+--- multithreading (probes 2x)
+--- compression (disk 2x)
+
+
+- Cryptography (requires algorithms and number theory)
+-- Allows Brute force
+
+- Neural tech
+-- Unlocks forceful absorb exploit
+--- Neural tech 2
+---- Allows CPUs to be merged
+
+- Double Probe power
+- Double research power
+
+Star
+- os unix 32
+- ftp solo
+
+
+Sun
+- os sun
+- vul: Ping spike
+- user/pw in files
+- todo: add invoices to disk
+- adds sun os and arch
+
+
+Sol
+- os sun
+- vul: ping spike
+- history shows reading admin.txt, then removing it. looking for users 2x. sudo kick user cypher. look for users 2x.
+- user kicks off user. lose access to disk
+- install keylogger
+- next time kicked off, new su.txt created in disk.
+- read commands: sudo kick, with password
+- access to root
+
+Eris
+- os msdos32
+- SMTP login doesnt work
+- SMTP just allows email to be sent
+- vul: SMTP overload gives disk access
+- disk filled with emails. one email has user/pass. and readme.txt
+- disk also has remotedesktop.exe
+- Install MSDOS calendar-32.exe
+
+
+Solar
+- os msdos32
+- scan has unknown protocol called "RMTDESKTOP"
+- requires Eris to get access to user/pass
+- n0v4 messageboards has solar acting like a n00b and is tricked into sharing remote desktop user access
+- Install MSDOS calendar-32.exe
+
+
+Sony
+- OS Playstation
+- only has access to restart, mount usb, mount cd
+- n0v4 messageboards on Playstation console has article. someone identifies the location. different people share parappa.img, crack.img, and private.key 
+- putting crack in usb, and restarting allows user access
+- disk filled with random homebrew game and readme.txt 
+- access root asks for key
+- Get access to Playstation 3
+
+Cygni
+- os unix32
+- vul: force with 4 UNIX-32
+
+Stellar
+- os msdos 32
+- vul: force with 4 MSDOS-32
+
+
+UPCOMING
+- 2 brute force. 1 with easy mode, another with hard
+
+
+
+bbs
+- choose subject
+- view messages in order
+- jump to message
+-- some messages have downloads
+-- continue
+-- cancel
+
+- view files
+-- 
+
+
+
+
+Eons Sequence
+- Forcing Eons takes x cores
+- Eons turns glitchy. Cannot connect anymore
+-- Can antagonize further, which will restart game
+- Glitchy Network opens, entangles you, collect packets
+-- Use cores to prevent entanglements
+- Scanning network requires key
+- Glitchy Messages come in via console
+- Delete files, Research Packets, gain Time Spike tool
+- Time Spike n0v4 and gain access to a file
+- Glitchy network key file
+- Scan network, discover glitchy host
+- Host allows warp back to start
+- Start with Glitchy option. Access suspended core
+-- You connect to the suspended core though the alternate timeframe
+- Option will open All networks, files, hosts, disks, cores as before, all glitchy
+- Eons is not glitchy
+- Time Spike Eons
+- Game over
+
+
+
+Eons old
+- Lets you interact here
+- Sends you back in time by antagionizing it
+- Merge into is blanked out
+- Also turns on network, generates file if you listen
+- needs enough space to hold it for analysis
+- analysis allows you to research quantum tech
+- research quantum tech and you can send yourself back as a file
+- restart game with file
+- break out. end beta
+
